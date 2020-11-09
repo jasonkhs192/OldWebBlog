@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>PC Warriors - Home</title>
+  <link href="css/project.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src=”http://html5shim.googlecode.com/svn/trunk/html5.js”>
+  </script>
+  <![endif]-->
+  <meta charset="utf-8">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script>
+    $(document).ready(function() {
+      // the site has now loaded, grab the video!
+      bgAudio = document.getElementById("bgAudio");
+      // now tweak the volume!
+      bgAudio.volume = 0.25;
+      // now, play it!
+      bgAudio.play();
+    });
+  </script>
+  <style>
+    main ul {
+      list-style-type: circle;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <div class="area">
+        Welcome to<br> ⚠PC Warriors⚠
+      </div>
+    </header>
+    <nav>
+      <ul>
+        <li class="leftside"><a href="index.html">Home</a></li>
+        <li class="leftside"><a href="anime.html">Anime</a></li>
+        <li class="leftside"><a href="games.html">Games</a></li>
+        <li class="leftside"><a href="about.html">About Us</a></li>
+        <li class="leftside"><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>PC WARRIORS
+      <audio style="float:right; margin-right:50px; margin-top:10px;" id="bgAudio" autoplay="autoplay" controls="controls">  
+      <source src="music/lol.mp3" />
+      </audio>
+      </h1>
+      <h2>PC Warriors showcases our favorite games and animated series that we recommend for others.
+      </h2>
+      <h3 class="clear">League of Legends</h3>
+      <div id="imgwrap1" class="leftside">
+        <a href="http://euw.leagueoflegends.com/"><img src="images/league.jpg" alt="League of Legends" style="width:280px;height:180px;"></a>
+      </div>
+      <ul>
+        <li>League of Legends is a multiplayer online battle arena video game<br><br></li>
+        <li>Developed and published by Riot Games for Microsoft Windows and OS X (2009)<br><br></li>
+        <li>Two teams of powerful champions, each with a unique design and playstyle, battle head-to-head across multiple battlefields and game modes<br><br></li>
+      </ul>
+      <h3 class="clear">Overwatch</h3>
+      <div id="imgwrap2" class="leftside">
+        <a href="https://playoverwatch.com/en-us/"><img src="images/overwatch.jpg" alt="Overwatch" style="width:280px;height:180px;"></a>
+      </div>
+      <ul>
+        <li>Overwatch is a multiplayer First Person Shooting game<br><br></li>
+        <li>Developed and published by Blizzard for Microsoft Windows and OS X (2016)<br><br></li>
+        <li>Two teams with unique heros uses their shooting weapons to dominate battlefields<br><br></li>
+      </ul>
+      <h3 class="clear">One Piece</h3>
+      <div id="imgwrap3" class="leftside">
+        <a href="http://onepieceofficial.com/"><img src="images/onepiece.jpg" alt="One Piece" style="width:280px;height:180px;"></a>
+      </div>
+      <ul>
+        <li>One Piece is one of the most famous Japanese animations<br><br></li>
+        <li>The animations are originated from Japanese comics called manga<br><br></li>
+        <li>One piece was written by Eiichiro Oda (1997)<br><br></li>
+        <li>The main character named Luffy wants to become a pirate king and is searching for a legendary treasure called "One Piece"</li>
+      </ul>
+       <h3 class="clear">Naruto</h3>
+      <div id="imgwrap4" class="leftside">
+        <a href="https://www.viz.com/naruto"><img src="http://ib1.huluim.com/show_key_art/1304?size=1600x600&region=US" alt="Naruto" style="width:280px;height:180px;"></a>
+      </div>
+      <ul>
+        <li>Naruto is also one of the most famous Japanese animations<br><br></li>
+        <li>Naruto was written by Masashi Kishimoto (1997)<br><br></li>
+        <li>The main character named Naruto wants to become a "Hokage," village leader to be acknowledged by villagers.</li>
+      </ul>
+      <br class="clear">
+    </main>
+    <footer>
+      Copyright &copy; 2016 PC Warriors<br>
+
+    </footer>
+  </div>
+</body>
+
+</html>
